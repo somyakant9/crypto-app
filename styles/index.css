@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 178, 110);
+}
+table{
+  margin-top: 20px;
+    width: 90%;
+    border: 10px solid rgb(174, 170, 170);
+    text-align: center;
+    
+}
+thead{
+    font-size: large;
+    font-family:monospace;
+    background-color: rgb(222, 231, 228);
+    
+}
+thead>th{
+    border: 1px solid black;
+}
+
+tbody>tr:nth-child(2n+1){
+background-color: rgb(236, 217, 217);
+}
+tbody>tr:nth-child(2n){
+    background-color: rgb(229, 232, 191);
+ }
+
+body>h1{
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div>img{
+    width: 5%;
+   
+    margin-left: 20px;
+    margin-right: 10px;
+}
+td{
+    width: fit-content;
+}
+tr>td{
+     width: 19%;
+}
